@@ -1,4 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
+// James Strong
 using System.IO.Pipes;
 using System.Security.AccessControl;
 using static System.Console;
