@@ -109,31 +109,31 @@ internal class Program
         {
             WriteLine("YOU WON WITH 21!");
         }
-        if (ComputerTotal == 21 && total != 21)
+        else if (ComputerTotal == 21 && total != 21)
         {
             WriteLine("You lost the computer got 21");
         }
-        if (total > ComputerTotal && ComputerTotal < 21 && total < 21 )
+        else if (total > ComputerTotal && ComputerTotal < 21 && total < 21 )
         {
             WriteLine($"You won! the computer got {ComputerTotal} and you got {total}.");
         }
-        if (total < ComputerTotal && ComputerTotal < 21 && total < 21)
+        else if (total < ComputerTotal && ComputerTotal < 21 && total < 21)
         {
             WriteLine($"You Lost:( the computer got {ComputerTotal} and you got {total}.");
         }
-        if (total > 21 && ComputerTotal < 21)
+        else if (total > 21 && ComputerTotal < 21)
         {
             WriteLine($"You Lost:( the computer got {ComputerTotal} and you went bust.");
         }
-        if (ComputerTotal > 21 && total < 21 )
+        else if (ComputerTotal > 21 && total < 21 )
         {
             WriteLine($"You won:) the computer got {ComputerTotal} and went bust.");
         }
-        if (ComputerTotal > 21 && total > 21)
+        else if (ComputerTotal > 21 && total > 21)
         {
             WriteLine($"It was a draw you both went bust");
         }
-        if (ComputerTotal == total)
+        else if (ComputerTotal == total)
         {
             WriteLine("It was a draw");
         }
